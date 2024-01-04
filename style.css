@@ -1,0 +1,36 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+}
+nav img{
+    height: 90px;
+    width: 90px;
+}
+ol{
+    display: flex;
+    gap: 15px;
+    align-content: flex-end;
+
+}
+li{
+    list-style-type: none;
+}
+
+.hero{
+    background-image: url("Assets/asset.webp");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover; 
+}
+h1{
+    color: white;
+    text-align: center;
+}
+a{
+    background-color: aqua;
+    justify-content: space-between; 
+}
