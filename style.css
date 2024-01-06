@@ -23,7 +23,6 @@ li{
 .hero{
     background-image: url("Assets/asset.webp");
     background-repeat: no-repeat;
-    height: 100vh;
     background-size: cover; 
 }
 h1{
@@ -34,3 +33,14 @@ a{
     background-color: aqua;
     justify-content: space-between; 
 }
+a:hover{
+    background-color: orange;
+}
+h2{
+    align-items: center;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
